@@ -51,7 +51,7 @@ var (
 	procSQLExecute         = mododbc32.NewProc("SQLExecute")
 	procSQLFetch           = mododbc32.NewProc("SQLFetch")
 	procSQLFreeHandle      = mododbc32.NewProc("SQLFreeHandle")
-	procSQLGetData         = mododbc32.NewProc("SQLGetData")
+	procSQLGetData         = mododbc32.NewProc("SQLGetDataW")
 	procSQLGetDiagRecW     = mododbc32.NewProc("SQLGetDiagRecW")
 	procSQLNumParams       = mododbc32.NewProc("SQLNumParams")
 	procSQLNumResultCols   = mododbc32.NewProc("SQLNumResultCols")
